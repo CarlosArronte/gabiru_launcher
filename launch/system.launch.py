@@ -17,8 +17,8 @@ def generate_launch_description():
         ),
         Node(
             package='gabiru_optimizer',
-            executable='pso_optimizer_node',
-            name='pso_optimizer_node',
+            executable='pso_node',
+            name='pso_node',
             output='screen'
         )
     ])
