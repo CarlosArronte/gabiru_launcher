@@ -48,7 +48,7 @@ def generate_launch_description():
         ),
         # Nodo Pure Pursuit
         Node(
-            package='gabiru_control',
+            package='gabiru_pure_pursuit',
             executable='pure_pursuit_node',
             name='pure_pursuit_node',
             output='screen',
